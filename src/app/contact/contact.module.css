@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imgContainer{
+    flex: 1;
+    position: relative;
+}
+.imgContact{
+    object-fit: contain;
+}
+
+.form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input,
+.form textarea{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: var(--bgSoft);
+    color: var(--text);
+    /* margin-bottom: 10px; */
+}
+.button{
+    background: var(--btn);
+    color: var(--text);
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card{
+    display: flex;
+    gap: 0;
+}
+.imgContainer{
+    flex: 6;
+    position: relative;
+    width: 90%;
+    height: 500px;
+    /* display: flex; */
+}
+.img{
+    object-fit: cover;
+}
+.date{
+    /* flex: 1; */
+    font-size: 12px;
+    border: 2px solid red;
+    transform: rotate(270deg);
+    margin: auto;
+}
+.button{
+    text-decoration: underline;
+}
